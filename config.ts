@@ -2,16 +2,16 @@ const siteMetadata = {
     title: `Joshua Kan`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: false,
-    logo: `/images/logo.png`,
-    icon: `/images/icon.png`,
-    titleImage: `/images/wall.png`,
-    ogImage: `/images/wall.png`,
+    logo: `/images/jklogo.png`,
+    icon: `/images/jkicon.png`,
+    titleImage: `/images/DSC_1965.png`,
+    ogImage: `/images/DSC_1965.png`,
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `Child of God | Data Scientist | Nature Appreciator`,
-    description: `.`,
+    description: `Hi, my name's Josh, welcome to my portfolio website!`,
     about:
-        "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
+        "A passionate learner with a hard-working and open-minded attitude. Also Love music, big ideas, basketball, anime, comedy, and AI.",
     author: `@jjoshkan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -23,29 +23,25 @@ const siteMetadata = {
             url: "/",
         },
         {
-            name: "ABOUT",
-            url: "/about",
+            name: "EXPERIENCE",
+            url: "/experience",
+        },
+        {
+            name: "SKILLS",
+            url: "/skill",
         },
         {
             name: "BLOG",
             url: "/blog",
         },
         {
-            name: "PORTFOLIO",
-            url: "/portfolio",
-        },
-        {
-            name: "CONTACT",
+            name: "CONTACT ME",
             url: "/contact",
         },
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
-            url: "/privacy-policy",
-        },
-        {
-            name: "GitHub",
+            name: "Design",
             url: "https://github.com/akzhy/gatsby-starter-elemental",
         },
     ],
@@ -88,11 +84,12 @@ const siteMetadata = {
     ],
     contact: {
         // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3", //i dont think necessary? change into profile pic?
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "joshuakhanzz@gmail.com",
-        phone: "310-897-9336", //consider apus
-        address: "Los Angeles",
+        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
+        description: `Feel free to drop your information! Note: Your email will not be disclosed. 
+        It will only be used to reply your message.`,
+        mail: "jjoshkan@gmail.com",
+        phone: "+1 (310) 897-9336",
+        address: "Los Angeles, CA",
     },
     disqus: "elemental-netlify-com",
 }

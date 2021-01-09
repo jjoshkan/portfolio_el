@@ -94,14 +94,15 @@ const Wall = ({ data }) => {
             <p className="text-lg lg:text-xl text-color-2 pt-4 lg:pt-0">
                 {data.introTag}
             </p>
-            <p className="text-base lg:text-lg mt-4">{data.description}</p>
-            <ScrollIntoView selector="#portfolio">
+            <p className="text-base lg:text-lg mt-4">{data.description} <br/><br/> On my way to create a better future!</p>
+            <a href="https://github.com/jjoshkan" className="button">
                 <Button
-                    title="SEE WORKS"
+                    title="See Projects"
                     type="button"
                     iconRight={<ArrowRight />}
                 />
-            </ScrollIntoView>
+            </a>
+            <ScrollIntoView selector="#experience"><button>See Experience</button></ScrollIntoView>
         </React.Fragment>
     )
 
@@ -146,9 +147,20 @@ const About = ({ data }) => {
         <div className="boxed">
             <div className="px-4 py-20 text-center lg:py-40 lg:px-0">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
-                    About
+                    About Me
                 </h2>
-                <p className="mt-5 text-lg">{data}</p>
+                <h3 className="text-justify font-black text-2xl lg:text-2xl">
+                    Joshua Kan
+                    <br/>
+                    B.S. in Mathematics/Economics, Statistics Minor
+                    
+                    <br/>
+                    University of California, Los Angeles <a href="http://www.ucla.edu/"><i><u>(UCLA)</u></i></a>
+                    
+                    <br/>
+                    Class of 2020
+                </h3>
+                <p className="mt-5 text-justify text-lg">{data}</p>
             </div>
         </div>
     )
@@ -255,7 +267,7 @@ export const query = graphql`
                     frontmatter {
                         title
                         description
-                        date(formatString: "DD MMMM YYYY")
+                        date(formatString: "YYYY")
                         image {
                             childImageSharp {
                                 fluid(maxWidth: 1000) {
