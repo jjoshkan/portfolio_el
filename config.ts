@@ -8,7 +8,7 @@ const siteMetadata = {
     ogImage: `/images/DSC_1965.png`,
     twoColumnWall: true,
     cookiePolicy: true,
-    introTag: `Child of God | Data Scientist | Nature Appreciator`,
+    introTag: `Child of God | Data Scientist | Nature Appreciator | Ryan's roommate`,
     description: `Hi, my name's Josh, welcome to my portfolio website!`,
     about:
         "A passionate learner with a hard-working and open-minded attitude. Also Love music, big ideas, basketball, anime, comedy, and AI.",
